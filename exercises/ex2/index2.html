@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Stussy site</title>
+</head>
+<body>
+    <div class="part1">
+        <header>
+            <a href="#" id="logo">
+                <span>Stussy</span>
+            </a>
+        </header>
+        <nav>
+            <a href="index.html" target="_self">Home</a>
+            <a id="pin" href="#">Our Stussy</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <main>
+        <div id="part1-2">
+            <div class="img_con">
+                <img class="hold" src="images/shirt.webp" alt="shirt" title="shirt" >
+                <img id="midd" src="images/denim.webp" alt="denim" title="denim" >
+                <img class="hold" src="images/cap.webp" alt="cap" title="cap">
+            </div>
+        </div>
+        <section id="part2-2">
+            <h2 class="Sec_title">List of stussy</h2>
+            <ul>
+                <li>
+                    <div class="con-circle">
+                        <div class="circle"></div>
+                        <span>Shirt</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="con-circle">
+                        <div class="circle"></div>
+                        <span>Denim</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="con-circle">
+                        <div class="circle"></div>
+                        <span>Cap</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="con-circle">
+                        <div class="circle"></div>
+                        <span>T-shirt</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="part3-2">
+            <h2 class="Sec_title">Sign up for updates</h2>
+            <div class="sign_continer">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" class="form-control" id="phone" pattern="[0-9]+" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <button type="button" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <div id="footer">
+        <div class="footerCon">
+            <div>
+                <h2>Who we Are</h2>
+                <ul class="footerall">
+                    <li><a href="#">About</a> </li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Work With Us</a></li>
+                    <li>
+                        <ul id="allmedia">
+                        <li> 
+                            <a href="https://twitter.com/?lang=en" target="_blank">
+                            <img class="media" src="images/twi.png" alt="twitter" title="twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img class="media" src="images/fac.png" alt="facebook" title="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img class="media" src="images/inst.png" alt="instagram" title="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <span>© Stussy</span>
+                </li>
+            </ul>
+            </div>
+            <div>
+                <h2>Follow us</h2>
+                <ul class="footerall">
+                    <li>
+                        <a href="https://twitter.com/?lang=en" target="_blank">
+                        twitter</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
