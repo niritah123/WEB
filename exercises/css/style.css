@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main,header,footer {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+}
+
+header,
+article,
+main,
+footer {
+    display: block;
+}
+
+#logo {
+    position: relative;
+    background-image: url("../images/prog.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    left: 40px;
+    top: 41px;
+    display: block;
+    transition: width,height 0.5s ease;
+}
+
+#logo span {
+    position: relative;
+    width: 400px;
+    height: 33px;
+    left: 38px;
+    top: -1px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+    display: block;
+        transition: font-size 0.5s ease;
+}
+
+
+.rectangle {
+    position: absolute;
+    background-color: #F9BDBD;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 555px;
+    left: 0px;
+    top: 123px;
+    display: block;
+}
+
+.rectangle img {
+    position: relative;
+    width: 426px;
+    height: 388px;
+    left: 40px;
+    border-radius: 20px;
+    top: 83px;
+}
+
+
+
+.FirstT h2 {
+    position: relative;
+    font-family: 'Nunito', sans-serif; 
+    width: 465px;
+    height: 98px;
+    left: 506px;
+    top: 206px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 49px;
+    display: block;
+    color: #3E3F43;
+}
+.FirstT span {
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    display: line;
+}
+.FirstT p {
+    position: relative;
+    width: 465px;
+    height: 66px;
+    left: 506px;
+    top: 197px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 33px;
+    display: block;
+}
+
+
+.Exercise h2 {
+    position: relative;
+    width: 140px;
+    height: 40px;
+    left: 40px;
+    top: 525px;
+    bottom: 1717px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+   
+    color: #000000;
+}
+
+
+.button {
+    position: relative;
+    background-color: #ffffff;
+    width: 120px;
+    height: 40px;
+    left: 24px;
+    top: 184px;
+    display: block;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.button p {
+    background-color: none;
+    position: relative;
+    width: 120px;
+    height: 40px;
+    left: 0px;
+    bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    /* display: flex; */
+    color: #171F46;
+    margin: auto;
+    padding-top: 8px;
+   
+}
+
+.Exercise1 {
+    position: relative;
+    left: 40px;
+    right: 960px;
+    top: 565px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #FDEDE5;
+     box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+}
+
+.Exercise1 .button:hover , 
+.Exercise2 .button:hover,
+.Exercise3 .button:hover,
+.Exercise4 .button:hover,
+.Exercise5 .button:hover{
+background-color: #171F46;
+}
+.Exercise1 p:hover{
+
+    color: #FDEDE5;
+}
+.Exercise2 p:hover {
+    color: #EBF1FF;
+}
+.Exercise3 p:hover {
+    color: #EBFFEC;
+}
+.Exercise4 p:hover {
+    color: #FFEBFC;
+}
+.Exercise5 p:hover {
+    color: #FFFEEB;
+}
+
+.Exercise2 {
+    position: relative;
+    left: 264px;
+    right: 736px;
+    top: 301px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #EBF1FF;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+}
+
+.Exercise3 {
+    position: relative;
+    left: 488px;
+    right: 512px;
+    top: 37px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #EBFFEC;
+    box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+}
+
+.Exercise4 {
+    position: relative;
+    left: 712px;
+    right: 288px;
+    top: -227px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #FFEBFC;
+     box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+}
+
+.Exercise5 {
+    position: relative;
+    left: 936px;
+    right: 64px;
+    top: -491px;
+    bottom: 1429px;
+    Width: 200px;
+    Height: 264px;
+    background: #FFFEEB;
+     box-shadow: 19px 4px 50px rgba(0, 0, 0, 0.25); 
+    border-radius: 20px;
+}
+
+.Exercise1 h2,
+.Exercise2 h2,
+.Exercise3 h2,
+.Exercise4 h2,
+.Exercise5 h2 {
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 80px;
+    height: 24px;
+    text-align: center;
+    left: 24px;
+    top: 128px;
+    color: #000000;
+}
+
+.Exercise1 img,
+.Exercise2 img,
+.Exercise3 img,
+.Exercise4 img,
+.Exercise5 img {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    right: 96px;
+    left: 24px;
+    top: -50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #D7DFE9;
+    border-radius: 50%;
+    border-color: none;
+
+}
+
+
+.Prog h2 {
+    position: relative;
+    height: 40px;
+    left: 40px;
+    top: -450px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+
+
+footer {
+    height: 301px;
+    width: 100%;
+    left: 0px;
+    background-color: #dcdbdbc7;
+        position: relative; /* Changed from static to relative */
+        margin-top: 60px; /* Adjust the margin as needed to align right after the last exercise */
+}
+
+.Follow {
+    position: relative;
+    left: 40px;
+    top: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+.instagram a,
+.linkedin a,
+.Git a{
+    position: relative;
+    text-decoration:none;
+    color: #8D8D8D;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+.instagram {
+    position: relative;
+    left: 40px;
+    top: 73px;
+}
+.linkedin {
+    position: relative;
+    left: 40px;
+    top: 89px;
+}
+.Git {
+    position: relative;
+    left: 40px;
+    top: 105px;
+    
+}
+footer h6 {
+    position: relative;
+    left: 40px;
+    top: 175px;
+    font-family: 'Nunito', sans-serif;
+}
+.instagram a:hover,
+.linkedin a:hover,
+.Git a:hover{
+    color: #000000;
+    font-size: 18px;
+
+}

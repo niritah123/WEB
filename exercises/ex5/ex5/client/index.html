@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Harry Potter</h1>
+
+    <main>
+      <div class="content">
+        <form class="form-wrapper">
+          <input name="title" id="title" required placeholder="Movie Title" />
+
+          <input
+            type="number"
+            name="year"
+            id="year"
+            placeholder="Release Year"
+            min="2001"
+          />
+
+          <input
+            type="number"
+            name="rating"
+            id="rating"
+            step="0.1"
+            min="1"
+            max="10"
+            placeholder="Rating"
+          />
+
+          <input
+            type="url"
+            name="imdb"
+            id="imdb"
+            placeholder="IMDb Url"
+            min="2001"
+          />
+          <p id="imdb-error">IMDb URL must contain "imdb" in it.</p>
+
+          <textarea
+            placeholder="Description"
+            rows="4"
+            id="description"
+            name="description"
+          ></textarea>
+
+          <button data-type="add" type="submit">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 52 52"
+              xml:space="preserve"
+              width="50px"
+              heigth="50px"
+            >
+              <path
+                fill="#FD5842"
+                d="M26 0C11.664 0 0 11.663 0 26s11.664 26 26 26 26-11.663 26-26S40.336 0 26 0m12.5 28H28v11a2 2 0 0 1-4 0V28H13.5a2 2 0 0 1 0-4H24V14a2 2 0 0 1 4 0v10h10.5a2 2 0 0 1 0 4"
+              />
+            </svg>
+          </button>
+        </form>
+
+        <div class="image-wrapper">
+          <img class="main-image" src="https://picsum.photos/600/900" />
+
+          <div class="red-bg-1"></div>
+          <div class="red-bg-2"></div>
+          <div class="red-bg-3"></div>
+        </div>
+
+        <div class="list-wrapper">
+          <div class="list-item">
+            <p>Loading...</p>
+          </div>
+
+          <div class="empty-list">
+            <p>No items found.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
