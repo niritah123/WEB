@@ -1,4 +1,4 @@
-const url = "http://localhost:3000";
+const url = "https://web-plwo.onrender.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   let editingItemId = null;
